@@ -1,0 +1,1438 @@
+{
+ "today": "2026-10-16",
+ "coins_per_eur": 1000,
+ "offers": [
+  {
+   "id": "o01",
+   "name": "Dragon Quest Legends",
+   "requirement": "Reach level 10 within 7 days of installing",
+   "coins": 500,
+   "hold_days": 3
+  },
+  {
+   "id": "o02",
+   "name": "Farm Valley",
+   "requirement": "Reach level 25",
+   "coins": 1800,
+   "hold_days": 14
+  },
+  {
+   "id": "o03",
+   "name": "Puzzle Pop",
+   "requirement": "Complete 50 puzzles",
+   "coins": 900,
+   "hold_days": 7
+  },
+  {
+   "id": "o04",
+   "name": "NeoBank Account",
+   "requirement": "Open an account and make a first card payment",
+   "coins": 8000,
+   "hold_days": 30
+  },
+  {
+   "id": "o05",
+   "name": "Daily Survey",
+   "requirement": "Complete the 10-minute survey",
+   "coins": 300,
+   "hold_days": 3
+  },
+  {
+   "id": "o06",
+   "name": "Speed Racer X",
+   "requirement": "Win 20 races",
+   "coins": 1200,
+   "hold_days": 7
+  },
+  {
+   "id": "o07",
+   "name": "StreamPlus Trial",
+   "requirement": "Start a free trial and keep it for 7 days",
+   "coins": 2500,
+   "hold_days": 30
+  },
+  {
+   "id": "o08",
+   "name": "Merge Kingdom",
+   "requirement": "Reach castle level 8",
+   "coins": 3000,
+   "hold_days": 14
+  },
+  {
+   "id": "o09",
+   "name": "Word Master",
+   "requirement": "Reach level 40",
+   "coins": 700,
+   "hold_days": 7
+  },
+  {
+   "id": "o10",
+   "name": "Food Delivery App",
+   "requirement": "Place a first order of at least 15 EUR",
+   "coins": 4000,
+   "hold_days": 30
+  }
+ ],
+ "users": [
+  {
+   "id": "u001",
+   "name": "Lena",
+   "email_verified": true,
+   "restricted": false,
+   "note": "Reward pending, hold period not over yet",
+   "completions": [
+    {
+     "offer_id": "o01",
+     "started_on": "2026-10-13",
+     "status": "pending",
+     "completed_on": "2026-10-15",
+     "available_on": "2026-10-18",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-09-06",
+     "status": "approved",
+     "completed_on": "2026-09-06",
+     "available_on": "2026-09-09",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u002",
+   "name": "Jonas",
+   "email_verified": true,
+   "restricted": false,
+   "note": "User says they finished the offer 12 hours ago: tracking can take 24h, so: wait",
+   "completions": [
+    {
+     "offer_id": "o03",
+     "started_on": "2026-10-11",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u003",
+   "name": "Mia",
+   "email_verified": true,
+   "restricted": false,
+   "note": "Offer started 6 days ago, still 'started' -> eligible for missing-reward ticket",
+   "completions": [
+    {
+     "offer_id": "o06",
+     "started_on": "2026-10-10",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-09-26",
+     "status": "approved",
+     "completed_on": "2026-09-26",
+     "available_on": "2026-09-29",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u004",
+   "name": "Can",
+   "email_verified": true,
+   "restricted": false,
+   "note": "Offer rejected: app installed before",
+   "completions": [
+    {
+     "offer_id": "o02",
+     "started_on": "2026-09-21",
+     "status": "rejected",
+     "completed_on": "2026-09-26",
+     "available_on": null,
+     "rejection_reason": "app_installed_before"
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u005",
+   "name": "Sofia",
+   "email_verified": true,
+   "restricted": false,
+   "note": "PayPal cashout processing for 3 days -> over 48h, ticket allowed",
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-08-17",
+     "status": "approved",
+     "completed_on": "2026-08-27",
+     "available_on": "2026-09-26",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": [
+    {
+     "id": "c501",
+     "method": "paypal",
+     "eur": 6.0,
+     "coins": 6000,
+     "requested_on": "2026-10-13",
+     "status": "processing"
+    }
+   ]
+  },
+  {
+   "id": "u006",
+   "name": "Ali",
+   "email_verified": true,
+   "restricted": false,
+   "note": "First cashout under manual review (2 days)",
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-08-07",
+     "status": "approved",
+     "completed_on": "2026-08-17",
+     "available_on": "2026-09-16",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": [
+    {
+     "id": "c601",
+     "method": "paypal",
+     "eur": 5.0,
+     "coins": 5000,
+     "requested_on": "2026-10-14",
+     "status": "under_review"
+    }
+   ]
+  },
+  {
+   "id": "u007",
+   "name": "Emma",
+   "email_verified": true,
+   "restricted": false,
+   "note": "Cashout failed because of wrong PayPal email, coins returned",
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-07-28",
+     "status": "approved",
+     "completed_on": "2026-08-07",
+     "available_on": "2026-09-06",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o09",
+     "started_on": "2026-09-16",
+     "status": "approved",
+     "completed_on": "2026-09-18",
+     "available_on": "2026-09-25",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": [
+    {
+     "id": "c701",
+     "method": "paypal",
+     "eur": 5.0,
+     "coins": 5000,
+     "requested_on": "2026-10-11",
+     "status": "failed",
+     "failure_reason": "paypal_email_not_found"
+    }
+   ]
+  },
+  {
+   "id": "u008",
+   "name": "Noah",
+   "email_verified": false,
+   "restricted": false,
+   "note": "Wants first cashout but email not verified",
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-08-27",
+     "status": "approved",
+     "completed_on": "2026-09-01",
+     "available_on": "2026-10-01",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u009",
+   "name": "Yusuf",
+   "email_verified": true,
+   "restricted": true,
+   "note": "Account restricted for multiple accounts",
+   "completions": [
+    {
+     "offer_id": "o05",
+     "started_on": "2026-10-01",
+     "status": "approved",
+     "completed_on": "2026-10-01",
+     "available_on": "2026-10-04",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u010",
+   "name": "Clara",
+   "email_verified": true,
+   "restricted": false,
+   "note": "Only 1.00 EUR available: below every cashout minimum (crypto 2 EUR, PayPal 5 EUR)",
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-09-16",
+     "status": "approved",
+     "completed_on": "2026-09-21",
+     "available_on": "2026-09-28",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-10-06",
+     "status": "approved",
+     "completed_on": "2026-10-07",
+     "available_on": "2026-10-10",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-10-12",
+     "status": "pending",
+     "completed_on": "2026-10-14",
+     "available_on": "2026-10-21",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u100",
+   "name": "Defne",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o01",
+     "started_on": "2026-09-10",
+     "status": "approved",
+     "completed_on": "2026-09-11",
+     "available_on": "2026-09-14",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u101",
+   "name": "Greta",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o10",
+     "started_on": "2026-08-22",
+     "status": "approved",
+     "completed_on": "2026-08-22",
+     "available_on": "2026-09-21",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u102",
+   "name": "Felix",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-09-17",
+     "status": "approved",
+     "completed_on": "2026-09-19",
+     "available_on": "2026-09-26",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-10-15",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u103",
+   "name": "Zeynep",
+   "email_verified": true,
+   "restricted": true,
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-10-02",
+     "status": "approved",
+     "completed_on": "2026-10-02",
+     "available_on": "2026-11-01",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o06",
+     "started_on": "2026-08-31",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u104",
+   "name": "Julia",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-08-06",
+     "status": "approved",
+     "completed_on": "2026-08-11",
+     "available_on": "2026-08-18",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o02",
+     "started_on": "2026-07-28",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-08-30",
+     "status": "approved",
+     "completed_on": "2026-09-04",
+     "available_on": "2026-10-04",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o01",
+     "started_on": "2026-10-07",
+     "status": "approved",
+     "completed_on": "2026-10-08",
+     "available_on": "2026-10-11",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u105",
+   "name": "Felix",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o07",
+     "started_on": "2026-09-10",
+     "status": "approved",
+     "completed_on": "2026-09-12",
+     "available_on": "2026-10-12",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u106",
+   "name": "Hana",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o02",
+     "started_on": "2026-09-25",
+     "status": "approved",
+     "completed_on": "2026-09-27",
+     "available_on": "2026-10-11",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-07-26",
+     "status": "approved",
+     "completed_on": "2026-07-27",
+     "available_on": "2026-08-03",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o04",
+     "started_on": "2026-07-20",
+     "status": "approved",
+     "completed_on": "2026-07-20",
+     "available_on": "2026-08-19",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u107",
+   "name": "Sam",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o05",
+     "started_on": "2026-09-05",
+     "status": "approved",
+     "completed_on": "2026-09-08",
+     "available_on": "2026-09-11",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o02",
+     "started_on": "2026-08-26",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o04",
+     "started_on": "2026-07-25",
+     "status": "approved",
+     "completed_on": "2026-07-27",
+     "available_on": "2026-08-26",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o10",
+     "started_on": "2026-09-28",
+     "status": "approved",
+     "completed_on": "2026-10-02",
+     "available_on": "2026-11-01",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u108",
+   "name": "Rosa",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o06",
+     "started_on": "2026-08-13",
+     "status": "approved",
+     "completed_on": "2026-08-13",
+     "available_on": "2026-08-20",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o04",
+     "started_on": "2026-10-01",
+     "status": "approved",
+     "completed_on": "2026-10-02",
+     "available_on": "2026-11-01",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-07-20",
+     "status": "approved",
+     "completed_on": "2026-07-20",
+     "available_on": "2026-07-27",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-08-27",
+     "status": "approved",
+     "completed_on": "2026-08-30",
+     "available_on": "2026-09-02",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u109",
+   "name": "Ivan",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o02",
+     "started_on": "2026-07-20",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u110",
+   "name": "Rosa",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o07",
+     "started_on": "2026-10-15",
+     "status": "rejected",
+     "completed_on": "2026-10-16",
+     "available_on": null,
+     "rejection_reason": "purchase_refunded"
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-08-12",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-08-12",
+     "status": "rejected",
+     "completed_on": "2026-08-17",
+     "available_on": null,
+     "rejection_reason": "purchase_refunded"
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u111",
+   "name": "Julia",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-10-15",
+     "status": "pending",
+     "completed_on": "2026-10-16",
+     "available_on": "2026-10-23",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o10",
+     "started_on": "2026-10-13",
+     "status": "approved",
+     "completed_on": "2026-10-15",
+     "available_on": "2026-11-14",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u112",
+   "name": "Sam",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o02",
+     "started_on": "2026-08-14",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u113",
+   "name": "Omar",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-07-30",
+     "status": "approved",
+     "completed_on": "2026-07-31",
+     "available_on": "2026-08-07",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-08-07",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-07-19",
+     "status": "approved",
+     "completed_on": "2026-07-21",
+     "available_on": "2026-07-24",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-08-25",
+     "status": "rejected",
+     "completed_on": "2026-08-30",
+     "available_on": null,
+     "rejection_reason": "purchase_refunded"
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u114",
+   "name": "Chen",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-09-02",
+     "status": "approved",
+     "completed_on": "2026-09-06",
+     "available_on": "2026-10-06",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o02",
+     "started_on": "2026-09-16",
+     "status": "approved",
+     "completed_on": "2026-09-16",
+     "available_on": "2026-09-30",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u115",
+   "name": "Ivan",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o01",
+     "started_on": "2026-09-03",
+     "status": "approved",
+     "completed_on": "2026-09-04",
+     "available_on": "2026-09-07",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u116",
+   "name": "Nora",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o10",
+     "started_on": "2026-09-14",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-08-24",
+     "status": "approved",
+     "completed_on": "2026-08-24",
+     "available_on": "2026-09-07",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u117",
+   "name": "Defne",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o02",
+     "started_on": "2026-10-08",
+     "status": "approved",
+     "completed_on": "2026-10-10",
+     "available_on": "2026-10-24",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u118",
+   "name": "Chen",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o03",
+     "started_on": "2026-08-17",
+     "status": "approved",
+     "completed_on": "2026-08-17",
+     "available_on": "2026-08-24",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-08-20",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o10",
+     "started_on": "2026-08-06",
+     "status": "approved",
+     "completed_on": "2026-08-11",
+     "available_on": "2026-09-10",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-08-07",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u119",
+   "name": "Max",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o07",
+     "started_on": "2026-08-15",
+     "status": "approved",
+     "completed_on": "2026-08-18",
+     "available_on": "2026-09-17",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-10-08",
+     "status": "approved",
+     "completed_on": "2026-10-08",
+     "available_on": "2026-10-22",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u120",
+   "name": "Rosa",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o05",
+     "started_on": "2026-09-21",
+     "status": "approved",
+     "completed_on": "2026-09-21",
+     "available_on": "2026-09-24",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-08-02",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-10-08",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o02",
+     "started_on": "2026-10-08",
+     "status": "approved",
+     "completed_on": "2026-10-11",
+     "available_on": "2026-10-25",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u121",
+   "name": "Chen",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-10-05",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u122",
+   "name": "Tom",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o07",
+     "started_on": "2026-08-04",
+     "status": "approved",
+     "completed_on": "2026-08-08",
+     "available_on": "2026-09-07",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o02",
+     "started_on": "2026-10-10",
+     "status": "pending",
+     "completed_on": "2026-10-13",
+     "available_on": "2026-10-27",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u123",
+   "name": "Tom",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-09-12",
+     "status": "approved",
+     "completed_on": "2026-09-17",
+     "available_on": "2026-10-17",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o06",
+     "started_on": "2026-07-25",
+     "status": "approved",
+     "completed_on": "2026-07-27",
+     "available_on": "2026-08-03",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o10",
+     "started_on": "2026-10-06",
+     "status": "approved",
+     "completed_on": "2026-10-10",
+     "available_on": "2026-11-09",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u124",
+   "name": "Sam",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-09-29",
+     "status": "rejected",
+     "completed_on": "2026-09-29",
+     "available_on": null,
+     "rejection_reason": "app_installed_before"
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-08-29",
+     "status": "approved",
+     "completed_on": "2026-09-01",
+     "available_on": "2026-09-04",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u125",
+   "name": "Ivan",
+   "email_verified": false,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o09",
+     "started_on": "2026-09-07",
+     "status": "rejected",
+     "completed_on": "2026-09-07",
+     "available_on": null,
+     "rejection_reason": "app_installed_before"
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u126",
+   "name": "Rosa",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o05",
+     "started_on": "2026-07-30",
+     "status": "approved",
+     "completed_on": "2026-08-01",
+     "available_on": "2026-08-04",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o10",
+     "started_on": "2026-09-19",
+     "status": "pending",
+     "completed_on": "2026-09-21",
+     "available_on": "2026-10-21",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u127",
+   "name": "Ben",
+   "email_verified": false,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o02",
+     "started_on": "2026-07-26",
+     "status": "approved",
+     "completed_on": "2026-07-28",
+     "available_on": "2026-08-11",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u128",
+   "name": "Nora",
+   "email_verified": false,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o03",
+     "started_on": "2026-08-05",
+     "status": "approved",
+     "completed_on": "2026-08-05",
+     "available_on": "2026-08-12",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-07-19",
+     "status": "rejected",
+     "completed_on": "2026-07-23",
+     "available_on": null,
+     "rejection_reason": "app_installed_before"
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-08-29",
+     "status": "approved",
+     "completed_on": "2026-08-30",
+     "available_on": "2026-09-29",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u129",
+   "name": "Defne",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o06",
+     "started_on": "2026-09-19",
+     "status": "approved",
+     "completed_on": "2026-09-24",
+     "available_on": "2026-10-01",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u130",
+   "name": "Defne",
+   "email_verified": true,
+   "restricted": true,
+   "completions": [
+    {
+     "offer_id": "o10",
+     "started_on": "2026-09-25",
+     "status": "rejected",
+     "completed_on": "2026-09-26",
+     "available_on": null,
+     "rejection_reason": "purchase_refunded"
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-10-12",
+     "status": "approved",
+     "completed_on": "2026-10-14",
+     "available_on": "2026-10-21",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o04",
+     "started_on": "2026-08-24",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-09-14",
+     "status": "approved",
+     "completed_on": "2026-09-19",
+     "available_on": "2026-10-19",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u131",
+   "name": "Rosa",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-09-06",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o10",
+     "started_on": "2026-09-16",
+     "status": "approved",
+     "completed_on": "2026-09-21",
+     "available_on": "2026-10-21",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-09-21",
+     "status": "approved",
+     "completed_on": "2026-09-23",
+     "available_on": "2026-10-07",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-10-07",
+     "status": "rejected",
+     "completed_on": "2026-10-09",
+     "available_on": null,
+     "rejection_reason": "purchase_refunded"
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u132",
+   "name": "Kemal",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o01",
+     "started_on": "2026-09-23",
+     "status": "approved",
+     "completed_on": "2026-09-25",
+     "available_on": "2026-09-28",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o02",
+     "started_on": "2026-10-11",
+     "status": "approved",
+     "completed_on": "2026-10-14",
+     "available_on": "2026-10-28",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-09-01",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u133",
+   "name": "Nora",
+   "email_verified": false,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o07",
+     "started_on": "2026-08-03",
+     "status": "approved",
+     "completed_on": "2026-08-03",
+     "available_on": "2026-09-02",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u134",
+   "name": "Julia",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o06",
+     "started_on": "2026-10-07",
+     "status": "rejected",
+     "completed_on": "2026-10-09",
+     "available_on": null,
+     "rejection_reason": "purchase_refunded"
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-07-23",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u135",
+   "name": "Max",
+   "email_verified": true,
+   "restricted": true,
+   "completions": [
+    {
+     "offer_id": "o07",
+     "started_on": "2026-09-21",
+     "status": "approved",
+     "completed_on": "2026-09-24",
+     "available_on": "2026-10-24",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o05",
+     "started_on": "2026-07-21",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o03",
+     "started_on": "2026-09-23",
+     "status": "approved",
+     "completed_on": "2026-09-25",
+     "available_on": "2026-10-02",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u136",
+   "name": "Rosa",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-08-17",
+     "status": "approved",
+     "completed_on": "2026-08-22",
+     "available_on": "2026-09-21",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-09-18",
+     "status": "pending",
+     "completed_on": "2026-09-23",
+     "available_on": "2026-10-23",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o06",
+     "started_on": "2026-09-24",
+     "status": "approved",
+     "completed_on": "2026-09-26",
+     "available_on": "2026-10-03",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u137",
+   "name": "Elif",
+   "email_verified": false,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o04",
+     "started_on": "2026-07-21",
+     "status": "approved",
+     "completed_on": "2026-07-22",
+     "available_on": "2026-08-21",
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u138",
+   "name": "Defne",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o10",
+     "started_on": "2026-07-27",
+     "status": "approved",
+     "completed_on": "2026-08-01",
+     "available_on": "2026-08-31",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o02",
+     "started_on": "2026-07-18",
+     "status": "approved",
+     "completed_on": "2026-07-21",
+     "available_on": "2026-08-04",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o08",
+     "started_on": "2026-09-14",
+     "status": "approved",
+     "completed_on": "2026-09-19",
+     "available_on": "2026-10-03",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o04",
+     "started_on": "2026-10-15",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  },
+  {
+   "id": "u139",
+   "name": "Rosa",
+   "email_verified": true,
+   "restricted": false,
+   "completions": [
+    {
+     "offer_id": "o01",
+     "started_on": "2026-09-30",
+     "status": "approved",
+     "completed_on": "2026-10-03",
+     "available_on": "2026-10-06",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o09",
+     "started_on": "2026-07-22",
+     "status": "approved",
+     "completed_on": "2026-07-26",
+     "available_on": "2026-08-02",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o04",
+     "started_on": "2026-07-31",
+     "status": "approved",
+     "completed_on": "2026-08-03",
+     "available_on": "2026-09-02",
+     "rejection_reason": null
+    },
+    {
+     "offer_id": "o07",
+     "started_on": "2026-07-29",
+     "status": "started",
+     "completed_on": null,
+     "available_on": null,
+     "rejection_reason": null
+    }
+   ],
+   "cashouts": []
+  }
+ ]
+}
